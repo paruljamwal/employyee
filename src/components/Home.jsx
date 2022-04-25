@@ -13,7 +13,7 @@ export const Home = () => {
 
   return (
     <>
-      <h3 className="welcome">Welcome To employee management system</h3>
+      <h3 className="welcome">EMPLOYEE MANAGEMENT</h3>
       <div className="home">
         <span>Stats</span>
         <div>

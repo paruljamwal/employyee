@@ -16,7 +16,7 @@ const [employ,setEmploy]=useState({
   status: "",
   team: "",
 });
-const {id}=useParams()
+const id=useParams()
 useEffect(()=>{
   axios.get('http://localhost:8080/employee/${id}').then((res)=>setEmploy(res.data))
 
